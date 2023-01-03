@@ -3,7 +3,7 @@ name: python yaml
 on: 
   pull_request:
       branches:
-        - ci/cd
+        - main
   push:
       branches:
         - main
