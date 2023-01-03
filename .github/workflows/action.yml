@@ -1,4 +1,4 @@
-name: actionss.yml
+name: actions.yml
 
 on: 
   pull_request:
