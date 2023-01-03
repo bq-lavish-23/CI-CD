@@ -33,7 +33,7 @@ jobs:
               pip install pytest-cov
               pwd
               ls
-              pytest api.py  
+              pytest api.py 
               continue-on-error: true        
 
       - name: Lint with flake8
