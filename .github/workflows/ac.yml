@@ -15,7 +15,7 @@ jobs:
       - name: checkout repo ci/cd
         uses: actions/checkout@v3
         with:
-          ref: ci/cd
+          ref: main
       
       - name: Set up Python 3.8
         uses: actions/setup-python@v4
