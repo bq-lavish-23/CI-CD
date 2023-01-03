@@ -41,3 +41,9 @@ jobs:
               pip install flake8
               flake8 .
         continue-on-error: true        
+
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+            GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}  # Needed to get PR information, if any
+            SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}    
