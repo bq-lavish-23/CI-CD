@@ -1,10 +1,10 @@
 name: python yaml
 
 on: 
-    pull_request:
+  pull request:
       branches:
         - ci/cd
-    push:
+  push:
       branches:
         - ci/cd
 
