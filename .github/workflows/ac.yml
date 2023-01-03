@@ -1,4 +1,4 @@
-name:  ac.yml
+name:  acc.yml
 
 on: 
   pull_request:
