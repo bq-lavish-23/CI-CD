@@ -3,7 +3,7 @@ name: actionsss.yml
 on: 
   pull_request:
       branches:
-        - ci/cd
+        - main
   push:
       branches:
         - ci/cd
