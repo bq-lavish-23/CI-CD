@@ -10,8 +10,7 @@ on:
 
 jobs:
   check-bats-version:
-    runs-on: 
-      group: ubuntu-latest
+    runs-on:  ubuntu-latest
     steps:
       - name: checkout repo ci/cd
         uses: actions/checkout@v3
